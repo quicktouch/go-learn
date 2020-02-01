@@ -1,5 +1,0 @@
-package: .
-import: []
-testImport:
-- package: lession/series
-- package: github.com/easierway/concurrent_map

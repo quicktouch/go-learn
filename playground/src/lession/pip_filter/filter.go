@@ -10,3 +10,12 @@ type Response interface{}
 type Filter interface {
 	Process(data Request) (Response, error)
 }
+
+/*
+
+处理流程：
+	    "1，2，3"
+split_filter  ["1","2","3"]
+to_int_filter [1,2,3]
+sum_filter    9
+*/
